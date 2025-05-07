@@ -1,9 +1,12 @@
-name: Auto Update Mods
+name: Atualizar Mods Minecraft
 
 on:
   schedule:
     - cron: '0 3 * * *'  # Executa todos os dias às 03:00 UTC
-  workflow_dispatch:
+  workflow_dispatch:  # Permite executar manualmente pelo GitHub UI
+
+permissions:
+  contents: write  # Permissão para fazer o commit e push no repositório
 
 jobs:
   update:
@@ -28,15 +31,15 @@ jobs:
           sudo update-locale LANG=pt_BR.UTF-8
           export LANG=pt_BR.UTF-8
 
-      - name: Executar script
-        run: python Tradução.py
+      - name: Executar script Python
+        run: python Tradução.py  # Certifique-se de que o script esteja correto
 
       - name: Commit e Push de alterações
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Garantir que o token esteja configurado
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}  # Use o segredo PAT criado
         run: |
           git config user.name 'github-actions'
           git config user.email 'github-actions@github.com'
           git add .
           git commit -m "Atualização: $(date +'%Y-%m-%d')" || echo "Sem mudanças"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/Ezequiel9898/trad-mod.git
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/Ezequiel9898/trad-mod.git
