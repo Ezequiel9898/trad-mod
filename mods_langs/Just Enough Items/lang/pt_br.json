@@ -5,7 +5,6 @@
   "jei.tooltip.show.all.recipes.hotkey": "Press \"%s\" to show all recipes.",
   "jei.tooltip.delete.item": "Clique para excluir",
   "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
-  "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
   "jei.tooltip.liquid.amount": "%s mB",
   "jei.tooltip.liquid.flowing": "%s (Flowing)",
   "jei.tooltip.transfer": "Transferir itens",

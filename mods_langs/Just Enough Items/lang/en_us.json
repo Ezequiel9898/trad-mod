@@ -10,7 +10,11 @@
   "jei.tooltip.transfer": "Move Items",
   "jei.tooltip.recipe.tag": "Accepts Tag: %s",
   "jei.tooltip.item.colors": "Colors: %s",
-  "jei.toolt": "Search Aliases:",
+  "jei.tooltip.item.search.aliases": "Search Aliases:",
+  "jei.tooltip.shapeless.recipe": "Shapeless Recipe",
+  "jei.tooltip.cheat.mode.button.enabled": "Cheat mode enabled.",
+  "jei.tooltip.cheat.mode.how.to.disable.hotkey": "Press \"%s\" to toggle it.",
+  "jei.tooltip.cheat.mode.how.to.disable.hover.config.button.hotkey": "Press \"%s\" here to toggle it.",
   "jei.tooltip.recipe.by": "Recipe By: %s",
   "jei.tooltip.recipe.id": "Recipe ID: %s",
   "jei.tooltip.not.enough.space": "The area on the right-hand side of this screen is too small for the JEI ingredient list overlay to display.",
@@ -33,7 +37,7 @@
 
   "_comment": "Error Tooltips",
   "jei.tooltip.error.recipe.transfer.missing": "Missing Items",
-  "jeiecipe.transfer.inventory.full": "Inventory is too full.",
+  "jei.tooltip.error.recipe.transfer.inventory.full": "Inventory is too full.",
   "jei.tooltip.error.recipe.transfer.no.server": "The server must have JEI installed.",
   "jei.tooltip.error.recipe.transfer.too.large.player.inventory": "Recipe is too large to craft in the 2x2 player crafting grid.",
   "jei.tooltip.error.crash": "This ingredient crashed when getting its tooltip. Please see the client logs for details.",
@@ -76,7 +80,7 @@
   "jei.key.category.edit.mode": "JEI (Edit Mode)",
   "key.jei.toggleEditMode": "Toggle Hide Ingredients Mode",
   "key.jei.toggleHideIngredient": "Hide Ingredient",
-  "key.jeidcardHideIngredient": "Hide Ingredient (With Wildcard)",
+  "key.jei.toggleWildcardHideIngredient": "Hide Ingredient (With Wildcard)",
 
   "jei.key.category.mouse.hover": "JEI (Hovering With Mouse)",
   "key.jei.bookmark": "Add/Remove Bookmark",
@@ -140,5 +144,11 @@
 
   "_comment": "Debug (for a debug mode, do not need translation)",
   "description.jei.wooden.door.1": "Wooden doors allow you to block monsters from entering your building.\\nTesting sentences.",
+  "description.jei.wooden.door.2": "Clicking on a door changes its state from open to closed and vice versa.",
+  "description.jei.wooden.door.3": "Wooden doors can be opened/closed via redstone circuits.",
+  "description.jei.debug.formatting.1": "Testing %s formatting replacements.",
+  "description.jei.debug.formatting.2": "Testing %s %s formatting replacements.",
+  "description.jei.debug.formatting.3": "%s nested",
+  "jei.alias.panda.spawn.egg": "endangered",
   "jei.alias.villager.spawn.egg": "HMMM"
 }

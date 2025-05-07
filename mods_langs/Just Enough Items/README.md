@@ -3,6 +3,43 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 07/05/2025 14:54:41
+
+```diff
+- 0007   "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+```
+
+## en_us.json atualizado em 07/05/2025 14:54:41
+
+```diff
+- 0013   "jei.toolt": "Search Aliases:",
++ 0013   "jei.tooltip.item.search.aliases": "Search Aliases:",
++ 0014   "jei.tooltip.shapeless.recipe": "Shapeless Recipe",
++ 0015   "jei.tooltip.cheat.mode.button.enabled": "Cheat mode enabled.",
++ 0016   "jei.tooltip.cheat.mode.how.to.disable.hotkey": "Press \"%s\" to toggle it.",
++ 0017   "jei.tooltip.cheat.mode.how.to.disable.hover.config.button.hotkey": "Press \"%s\" here to toggle it.",
+```
+```diff
+- 0036   "jeiecipe.transfer.inventory.full": "Inventory is too full.",
++ 0040   "jei.tooltip.error.recipe.transfer.inventory.full": "Inventory is too full.",
+```
+```diff
+- 0079   "key.jeidcardHideIngredient": "Hide Ingredient (With Wildcard)",
++ 0083   "key.jei.toggleWildcardHideIngredient": "Hide Ingredient (With Wildcard)",
+```
+```diff
++ 0147   "description.jei.wooden.door.2": "Clicking on a door changes its state from open to closed and vice versa.",
++ 0148   "description.jei.wooden.door.3": "Wooden doors can be opened/closed via redstone circuits.",
++ 0149   "description.jei.debug.formatting.1": "Testing %s formatting replacements.",
++ 0150   "description.jei.debug.formatting.2": "Testing %s %s formatting replacements.",
++ 0151   "description.jei.debug.formatting.3": "%s nested",
++ 0152   "jei.alias.panda.spawn.egg": "endangered",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 07/05/2025 04:51:15
 
 ```diff
