@@ -1,4 +1,4 @@
-name: Atualizar Mods Minecraft
+name: Atualizar Mods
 
 on:
   schedule:
