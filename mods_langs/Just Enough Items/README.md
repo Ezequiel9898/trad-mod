@@ -3,6 +3,26 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 07/05/2025 04:46:44
+
+```diff
+@@ -5,6 +5,10 @@
+   "jei.tooltip.show.all.recipes.hotkey": "Press \"%s\" to show all recipes.",
+   "jei.tooltip.delete.item": "Clique para excluir",
+   "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
++  "jei.tooltip.liquid.amount": "%s mB",
++  "jei.tooltip.liquid.flowing": "%s (Flowing)",
++  "jei.tooltip.transfer": "Transferir itens",
++  "jei.tooltip.recipe.tag": "Aceita qualquer: %s",
+   "jei.tooltip.item.colors": "Cores: %s",
+   "jei.tooltip.item.search.aliases": "Search Aliases:",
+   "jei.tooltip.shapeless.recipe": "Receita indefinida",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 07/05/2025 00:29:22
 
 ```diff
