@@ -3,6 +3,39 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 07/05/2025 04:51:15
+
+```diff
++ 0006   "jei.tooltip.delete.item": "Clique para excluir",
++ 0007   "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
++ 0008   "jei.tooltip.liquid.amount": "%s mB",
++ 0009   "jei.tooltip.liquid.flowing": "%s (Flowing)",
+```
+
+## en_us.json atualizado em 07/05/2025 04:51:15
+
+```diff
++ 0005   "jei.tooltip.show.all.recipes.hotkey": "Press \"%s\" to show all recipes.",
++ 0006   "jei.tooltip.delete.item": "Click to delete.",
++ 0007   "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
++ 0008   "jei.tooltip.liquid.amount": "%s mB",
++ 0009   "jei.tooltip.liquid.flowing": "%s (Flowing)",
++ 0010   "jei.tooltip.transfer": "Move Items",
+```
+```diff
++ 0141   "jei.key.shift": "SHIFT",
++ 0142   "jei.key.mouse.left": "CLICK",
++ 0143   "jei.key.mouse.right": "RIGHT-CLICK",
++ 0144 
++ 0145   "_comment": "Debug (for a debug mode, do not need translation)",
++ 0146   "description.jei.wooden.door.1": "Wooden doors allow you to block monsters from entering your building.\\nTesting sentences.",
++ 0147   "description.jei.wooden.door.2": "Clicking on a door changes its state from open to closed and vice versa.",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 07/05/2025 04:46:44
 
 ```diff
