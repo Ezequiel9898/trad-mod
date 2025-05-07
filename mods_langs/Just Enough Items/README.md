@@ -3,6 +3,16 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 07/05/2025 15:01:02
+
+```diff
+- 0010   "jei.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 07/05/2025 14:54:41
 
 ```diff
