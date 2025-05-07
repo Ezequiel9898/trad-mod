@@ -37,4 +37,4 @@ jobs:
           git config user.email 'github-actions@github.com'
           git add .
           git commit -m "Atualização: $(date +'%Y-%m-%d')" || echo "Sem mudanças"
-          git push origin main
+          git push https://github-actions:${{ secrets.GH_TOKEN }}@github.com/Ezequiel9898/trad-mod.git
