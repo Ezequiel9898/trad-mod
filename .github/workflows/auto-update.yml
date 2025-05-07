@@ -2,26 +2,31 @@ name: Auto Update Mods
 
 on:
   schedule:
-    - cron: '0 3 * * *' # todos os dias às 03:00 UTC
+    - cron: '0 3 * * *'  # Executa todos os dias às 03:00 UTC
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - name: Install dependencies
+
+      - name: Instalar dependências
         run: pip install requests
-      - name: Run script
+
+      - name: Executar script
         run: python Tradução.py
-      - name: Commit changes
+
+      - name: Commit e Push de alterações
         run: |
           git config user.name 'github-actions'
           git config user.email 'github-actions@github.com'
           git add .
-          git commit -m 'Atualização automática de traduções' || echo \"No changes to commit\"
-          git push
+          git commit -m "Atualização: $(date +'%Y-%m-%d')" || echo "Sem mudanças"
+          git push origin main
