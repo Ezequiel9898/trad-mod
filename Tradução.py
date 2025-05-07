@@ -19,11 +19,9 @@ README_PRINCIPAL = 'README.md'
 tabela_status = {}
 mod_alterado = False
 
-
 def carregar_mods(caminho):
     with open(caminho, 'r', encoding='utf-8') as f:
         return json.load(f)
-
 
 def obter_ultima_versao(mod_id):
     url = f"{MODRINTH_API}/project/{mod_id}/version"
@@ -31,7 +29,6 @@ def obter_ultima_versao(mod_id):
     resposta.raise_for_status()
     versoes = resposta.json()
     return versoes[0]
-
 
 def baixar_jar(versao):
     for arquivo in versao['files']:
@@ -42,20 +39,45 @@ def baixar_jar(versao):
             return arquivo['filename'], r.content
     return None, None
 
-
 def hash_arquivo(conteudo):
     return hashlib.md5(conteudo).hexdigest()
 
-
 def diferenca_json(antigo, novo):
     try:
-        antigo_linhas = json.dumps(json.loads(antigo), indent=2, ensure_ascii=False).splitlines()
-        novo_linhas = json.dumps(json.loads(novo), indent=2, ensure_ascii=False).splitlines()
-        diff = [linha for linha in difflib.unified_diff(antigo_linhas, novo_linhas, lineterm='') if not linha.startswith('---') and not linha.startswith('+++')]
-        return '\n'.join(diff)
-    except json.JSONDecodeError:
-        return ''
+        antigo_linhas = antigo.splitlines()
+        novo_linhas = novo.splitlines()
 
+        diff = list(difflib.ndiff(antigo_linhas, novo_linhas))
+        blocos = []
+        bloco_atual = []
+        linha_antigo = linha_novo = 1
+
+        for linha in diff:
+            tipo = linha[0]
+            conteudo = linha[2:]
+
+            if tipo == ' ':
+                if bloco_atual:
+                    blocos.append(bloco_atual)
+                    bloco_atual = []
+                linha_antigo += 1
+                linha_novo += 1
+                continue
+
+            if tipo == '-':
+                bloco_atual.append(f"- {linha_antigo:04d} {conteudo}")
+                linha_antigo += 1
+            elif tipo == '+':
+                bloco_atual.append(f"+ {linha_novo:04d} {conteudo}")
+                linha_novo += 1
+
+        if bloco_atual:
+            blocos.append(bloco_atual)
+
+        return '\n'.join(f'```diff\n' + '\n'.join(bloco) + '\n```' for bloco in blocos)
+
+    except Exception as e:
+        return f"Erro ao gerar diff: {e}"
 
 def substituir_valores_json(texto_original, dicionario_substituicao):
     def substituir(match):
@@ -67,7 +89,6 @@ def substituir_valores_json(texto_original, dicionario_substituicao):
 
     padrao = r'"(.*?)":\s*"((?:\\"|\\\\|\\/|\\b|\\f|\\n|\\r|\\t|\\u[0-9a-fA-F]{4}|[^"\\])*)"'
     return re.sub(padrao, substituir, texto_original)
-
 
 def extrair_arquivos_lang(conteudo_jar, caminho_saida, nome_mod):
     import io
@@ -133,7 +154,7 @@ def extrair_arquivos_lang(conteudo_jar, caminho_saida, nome_mod):
                 saida.write(conteudo_novo)
 
             data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
-            changelog.insert(0, f"## {nome_arquivo} {acao} em {data}\n\n```diff\n{diff}\n```")
+            changelog.insert(0, f"## {nome_arquivo} {acao} em {data}\n\n{diff}")
             atualizado = True
             mod_alterado = True
 
@@ -141,7 +162,6 @@ def extrair_arquivos_lang(conteudo_jar, caminho_saida, nome_mod):
 
         if changelog:
             atualizar_readme_mod(caminho_saida, nome_mod, changelog)
-
 
 def atualizar_readme_mod(caminho_mod, nome_mod, changelog):
     caminho_readme = os.path.join(caminho_mod, '..', 'README.md')
@@ -154,7 +174,6 @@ def atualizar_readme_mod(caminho_mod, nome_mod, changelog):
     else:
         with open(caminho_readme, 'w', encoding='utf-8') as f:
             f.write(f"# Arquivos de Tradução: {nome_mod}\n{bloco}")
-
 
 def atualizar_readme_principal():
     if not mod_alterado:
@@ -175,7 +194,6 @@ Este repositório contém traduções de mods para Minecraft. O status das tradu
     with open(README_PRINCIPAL, 'w', encoding='utf-8') as f:
         f.write(cabecalho + '\n' + '\n'.join(linhas))
 
-
 def main():
     mods = carregar_mods(ARQUIVO_MODS)
     os.makedirs(PASTA_SAIDA, exist_ok=True)
@@ -195,7 +213,6 @@ def main():
             print(f"Erro ao processar {nome_mod}: {e}\n")
 
     atualizar_readme_principal()
-
 
 if __name__ == '__main__':
     main()
