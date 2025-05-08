@@ -19,7 +19,7 @@ body:
     id: id_modrinth
     attributes:
       label: ID do Mod no Modrinth
-      description: "Este é o ID que aparece na URL do Modrinth. Ex: https://modrinth.com/mod/terra-blender"
+      description: "Este é o ID que aparece na URL do Modrinth. Ex: https://modrinth.com/mod/terrablender"
       placeholder: "terra-blender"
     validations:
       required: true
