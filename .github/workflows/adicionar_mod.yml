@@ -1,0 +1,30 @@
+name: Adicionar novo mod ao JSON
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  adicionar_mod:
+    if: contains(github.event.issue.labels.*.name, 'adicionar-mod')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Instalar jq
+        run: sudo apt-get install -y jq
+
+      - name: Extrair dados e atualizar mods.json
+        run: |
+          NOME=$(echo "${{ github.event.issue.body }}" | grep -Po '(?<=### Nome do Mod\s+\n)[^\n]+')
+          ID=$(echo "${{ github.event.issue.body }}" | grep -Po '(?<=### ID do Modrinth\s+\n)[^\n]+')
+
+          jq --arg k "$NOME" --arg v "$ID" '. + {($k): $v}' mods.json > mods_temp.json
+          mv mods_temp.json mods.json
+
+      - name: Commit e push mods.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add mods.json
+          git commit -m "add: novo mod $NOME ($ID) via issue"
+          git push
