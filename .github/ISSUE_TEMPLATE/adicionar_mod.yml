@@ -1,5 +1,7 @@
-name: Adicionar Mod
-description: Solicitar adição de um novo mod à lista de traduções
+---
+# .github/ISSUE_TEMPLATE/adicionar_mod.yml
+name: ➕ Adicionar Novo Mod
+description: Solicite a adição de um mod para ser monitorado e traduzido automaticamente.
 title: "[Novo Mod]: "
 labels:
   - adicionar-mod
@@ -8,22 +10,32 @@ body:
     id: nome_mod
     attributes:
       label: Nome do Mod
-      description: Nome amigável do mod que será exibido
-      placeholder: FTB Teams
+      description: Nome amigável do mod que aparecerá nos arquivos e no README.
+      placeholder: BetterEnd, TerraBlender, etc.
     validations:
       required: true
 
   - type: input
-    id: id_mod
+    id: id_modrinth
     attributes:
       label: ID do Mod no Modrinth
-      description: Parte final da URL no Modrinth
-      placeholder: ftb-teams
+      description: Este é o ID que aparece na URL do Modrinth. Ex: `https://modrinth.com/mod/**terra-blender**`
+      placeholder: terra-blender
     validations:
       required: true
 
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por que esse mod deve ser adicionado?
+      description: Explique por que esse mod é relevante para tradução. Por exemplo, ele é usado em modpacks populares ou possui muitos textos sem tradução.
+      placeholder: Usado no modpack XYZ, não possui tradução para pt_br.json
+
   - type: markdown
     attributes:
-      value: >-
-        O mod será adicionado automaticamente ao `mods.json`.
+      value: |
+        Ao enviar esse formulário, um bot poderá processar a requisição e atualizar o `mods.json` automaticamente.
 
+        O ID do mod será validado via API do Modrinth.
+
+        > Verifique se o mod realmente possui arquivos `/lang/en_us.json` para que o script possa extrair as traduções corretamente.
