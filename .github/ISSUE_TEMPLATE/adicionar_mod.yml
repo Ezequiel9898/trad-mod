@@ -1,0 +1,29 @@
+name: Adicionar Mod
+description: Solicite a adição de um novo mod à lista de traduções
+title: "[Novo Mod]: "
+labels:
+  - "adicionar-mod"
+body:
+  - type: input
+    id: nome_mod
+    attributes:
+      label: Nome do Mod
+      description: Nome amigável do mod (ex: FTB Teams)
+      placeholder: FTB Teams
+    validations:
+      required: true
+
+  - type: input
+    id: id_mod
+    attributes:
+      label: ID do Modrinth
+      description: ID único do mod no Modrinth (ex: ftb-teams)
+      placeholder: ftb-teams
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: >-
+        _O ID deve ser obtido no link do projeto no Modrinth, ex:_
+        `https://modrinth.com/mod/**ftb-teams**`
