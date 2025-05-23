@@ -3,6 +3,28 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 23/05/2025 03:36:21
+
+```diff
+- 0293   "gui.jei.category.fuel": "Combustível",
++ 0293   "gui.jei.category.smelting_fuel": "Smelting Fuel",
++ 0294   "gui.jei.category.smoking_fuel": "Smoking Fuel",
++ 0295   "gui.jei.category.blasting_fuel": "Blasting Fuel",
+```
+
+## en_us.json atualizado em 23/05/2025 03:36:21
+
+```diff
++ 0293   "gui.jei.category.smelting_fuel": "Smelting Fuel",
+- 0293   "gui.jei.category.fuel": "Fuel",
++ 0294   "gui.jei.category.smoking_fuel": "Smoking Fuel",
++ 0295   "gui.jei.category.blasting_fuel": "Blasting Fuel",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 11/05/2025 03:37:01
 
 ```diff
