@@ -3,6 +3,22 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 01/06/2025 03:54:23
+
+```diff
++ 0314   "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
+```
+
+## en_us.json atualizado em 01/06/2025 03:54:23
+
+```diff
++ 0314   "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 27/05/2025 03:36:35
 
 ```diff
