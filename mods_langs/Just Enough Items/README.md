@@ -3,6 +3,34 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 06/06/2025 03:40:35
+
+```diff
+- 0293   "gui.jei.category.fuel": "Combustível",
++ 0293   "gui.jei.category.smelting_fuel": "Smelting Fuel",
++ 0294   "gui.jei.category.smoking_fuel": "Smoking Fuel",
++ 0295   "gui.jei.category.blasting_fuel": "Blasting Fuel",
+```
+```diff
++ 0314   "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
+```
+
+## en_us.json atualizado em 06/06/2025 03:40:35
+
+```diff
++ 0293   "gui.jei.category.smelting_fuel": "Smelting Fuel",
+- 0293   "gui.jei.category.fuel": "Fuel",
++ 0294   "gui.jei.category.smoking_fuel": "Smoking Fuel",
++ 0295   "gui.jei.category.blasting_fuel": "Blasting Fuel",
+```
+```diff
++ 0314   "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 04/06/2025 03:40:54
 
 ```diff

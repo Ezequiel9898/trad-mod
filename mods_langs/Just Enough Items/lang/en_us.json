@@ -290,7 +290,9 @@
   "gui.jei.category.campfire": "Campfire Cooking",
   "gui.jei.category.smelting.experience": "%s XP",
   "gui.jei.category.smelting.time.seconds": "%ss",
-  "gui.jei.category.fuel": "Fuel",
+  "gui.jei.category.smelting_fuel": "Smelting Fuel",
+  "gui.jei.category.smoking_fuel": "Smoking Fuel",
+  "gui.jei.category.blasting_fuel": "Blasting Fuel",
   "gui.jei.category.fuel.smeltCount.single": "Smelts 1 item",
   "gui.jei.category.fuel.smeltCount": "Smelts %s items",
   "gui.jei.category.brewing": "Brewing",
@@ -309,6 +311,7 @@
   "jei.message.config.folder": "Or click here to open the JEI config folder instead",
   "jei.message.copy.recipe.id.success": "The following recipe ID was copied to the clipboard: %s",
   "jei.message.copy.recipe.id.failure": "Failed to copy the recipe ID to the clipboard because the ID is unknown",
+  "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
 
   "_comment": "Key Names",
   "jei.key.combo.shift": "SHIFT + %s",
