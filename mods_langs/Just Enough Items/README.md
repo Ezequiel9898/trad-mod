@@ -3,6 +3,24 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 12/07/2025 03:49:04
+
+```diff
++ 0302   "gui.jei.category.grindstone": "Grinding",
++ 0303   "gui.jei.category.grindstone.experience": "%s to %s XP",
+```
+
+## en_us.json atualizado em 12/07/2025 03:49:04
+
+```diff
++ 0302   "gui.jei.category.grindstone": "Grinding",
++ 0303   "gui.jei.category.grindstone.experience": "%s to %s XP",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 06/06/2025 03:40:35
 
 ```diff
