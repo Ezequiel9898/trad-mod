@@ -3,6 +3,22 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 15/07/2025 03:55:11
+
+```diff
+- 0302   "gui.jei.category.grindstone": "Grinding",
+```
+
+## en_us.json atualizado em 15/07/2025 03:55:11
+
+```diff
+- 0302   "gui.jei.category.grindstone": "Grinding",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 12/07/2025 03:49:04
 
 ```diff
