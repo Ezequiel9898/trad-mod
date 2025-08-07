@@ -1,3 +1,47 @@
+# Arquivos de Tradução: Vinery
+
+
+### Registro de Alterações
+
+## pt_br.json atualizado em 07/08/2025 04:00:12
+
+```diff
+- 0021   "advancement.vinery.overgrown_lattices.desc": "Grow Jungle Seeds Lattices.",
++ 0021   "advancement.vinery.overgrown_lattices.desc": "Grow Jungle Seeds on a Oak Lattice..",
+```
+```diff
+- 0149   "block.vinery.oak_wine_rack_mid": "Oak Rack",
++ 0149   "block.vinery.oak_wine_rack_mid": "Oak Wine Rack",
+```
+```diff
++ 0326   "tooltip.vinery.bottle_size.small": "Small Bottle",
++ 0327   "tooltip.vinery.bottle_size.big": "Big Bottle",
++ 0328   "tooltip.vinery.storage": "Storage for %s",
++ 0329   "tooltip.vinery.small_bottle_first": "small",
++ 0330   "tooltip.vinery.small_bottle_rest": "Wine Bottles",
++ 0331   "tooltip.vinery.large_bottle_first": "all",
++ 0332   "tooltip.vinery.large_bottle_rest": "Wine Bottle sizes",
+```
+
+## en_us.json atualizado em 07/08/2025 04:00:12
+
+```diff
+- 0021   "advancement.vinery.overgrown_lattices.desc": "Grow Jungle Seeds Lattices.",
++ 0021   "advancement.vinery.overgrown_lattices.desc": "Grow Jungle Seeds on a Oak Lattice..",
+```
+```diff
+- 0149   "block.vinery.oak_wine_rack_mid": "Oak Rack",
++ 0149   "block.vinery.oak_wine_rack_mid": "Oak Wine Rack",
+```
+```diff
++ 0326   "tooltip.vinery.bottle_size.small": "Small Bottle",
++ 0327   "tooltip.vinery.bottle_size.big": "Big Bottle",
++ 0328   "tooltip.vinery.storage": "Storage for %s",
++ 0329   "tooltip.vinery.small_bottle_first": "small",
++ 0330   "tooltip.vinery.small_bottle_rest": "Wine Bottles",
++ 0331   "tooltip.vinery.large_bottle_first": "all",
++ 0332   "tooltip.vinery.large_bottle_rest": "Wine Bottle sizes",
+```
 # Vinery Language Files
 
 

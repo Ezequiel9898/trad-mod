@@ -6,5 +6,5 @@ Este repositório contém traduções de mods para Minecraft. O status das tradu
 
 | Mod              | Status        | Última Atualização |
 |------------------|---------------|--------------------|
-| **Just Enough Items** | 🟢 Atualizado | 31/07/2025 |
-| **Vinery** | 🔴 Desatualizado | 31/07/2025 |
+| **Just Enough Items** | 🔴 Desatualizado | 07/08/2025 |
+| **Vinery** | 🟢 Atualizado | 07/08/2025 |
