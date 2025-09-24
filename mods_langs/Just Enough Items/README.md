@@ -3,6 +3,62 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 24/09/2025 03:25:20
+
+```diff
+- 0023   "jei.tooltip.bookmarks": "Favoritos",
++ 0023   "jei.tooltip.bookmarks.enable": "Show JEI Bookmarks",
++ 0024   "jei.tooltip.bookmarks.disable": "Hide JEI Bookmarks",
+```
+```diff
++ 0034   "jei.tooltip.lookupHistory.enable": "Show JEI Lookup History",
++ 0035   "jei.tooltip.lookupHistory.disable": "Hide JEI Lookup History",
++ 0036   "jei.tooltip.lookupHistory.usage": "Shows a list of the ingredients recently used for looking up recipes.",
+```
+```diff
++ 0173 
++ 0174   "jei.config.client.lookupHistory": "Lookup History",
++ 0175   "jei.config.client.lookupHistory.description": "Config options for showing a history of ingredient lookups in JEI",
++ 0176   "jei.config.client.lookupHistory.enabled": "Enabled",
++ 0177   "jei.config.client.lookupHistory.enabled.description": "Display or hide the lookup history overlay.",
++ 0178   "jei.config.client.lookupHistory.maxRows": "Max Rows",
++ 0179   "jei.config.client.lookupHistory.maxRows.description": "Max number of rows to display in the lookup history overlay.",
++ 0180   "jei.config.client.lookupHistory.maxIngredients": "Max Ingredients",
++ 0181   "jei.config.client.lookupHistory.maxIngredients.description": "Max number of lookup history ingredients to save.",
++ 0182   "jei.config.client.lookupHistory.displaySide": "Display Side",
++ 0183   "jei.config.client.lookupHistory.displaySide.description": "Side of the screen to display the lookup history overlay.",
+```
+
+## en_us.json atualizado em 24/09/2025 03:25:20
+
+```diff
+- 0023   "jei.tooltip.bookmarks": "JEI Bookmarks",
++ 0023   "jei.tooltip.bookmarks.enable": "Show JEI Bookmarks",
++ 0024   "jei.tooltip.bookmarks.disable": "Hide JEI Bookmarks",
+```
+```diff
++ 0034   "jei.tooltip.lookupHistory.enable": "Show JEI Lookup History",
++ 0035   "jei.tooltip.lookupHistory.disable": "Hide JEI Lookup History",
++ 0036   "jei.tooltip.lookupHistory.usage": "Shows a list of the ingredients recently used for looking up recipes.",
+```
+```diff
++ 0173 
++ 0174   "jei.config.client.lookupHistory": "Lookup History",
++ 0175   "jei.config.client.lookupHistory.description": "Config options for showing a history of ingredient lookups in JEI",
++ 0176   "jei.config.client.lookupHistory.enabled": "Enabled",
++ 0177   "jei.config.client.lookupHistory.enabled.description": "Display or hide the lookup history overlay.",
++ 0178   "jei.config.client.lookupHistory.maxRows": "Max Rows",
++ 0179   "jei.config.client.lookupHistory.maxRows.description": "Max number of rows to display in the lookup history overlay.",
++ 0180   "jei.config.client.lookupHistory.maxIngredients": "Max Ingredients",
++ 0181   "jei.config.client.lookupHistory.maxIngredients.description": "Max number of lookup history ingredients to save.",
++ 0182   "jei.config.client.lookupHistory.displaySide": "Display Side",
++ 0183   "jei.config.client.lookupHistory.displaySide.description": "Side of the screen to display the lookup history overlay.",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 31/07/2025 03:58:55
 
 ```diff
