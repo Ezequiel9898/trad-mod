@@ -3,6 +3,506 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 02/10/2025 03:22:52
+
+```diff
+- 0023   "jei.tooltip.bookmarks": "Favoritos",
++ 0023   "jei.tooltip.bookmarks.enable": "Show JEI Bookmarks",
++ 0024   "jei.tooltip.bookmarks.disable": "Hide JEI Bookmarks",
+```
+```diff
++ 0034   "jei.tooltip.lookupHistory.enable": "Show JEI Lookup History",
++ 0035   "jei.tooltip.lookupHistory.disable": "Hide JEI Lookup History",
++ 0036   "jei.tooltip.lookupHistory.usage": "Shows a list of the ingredients recently used for looking up recipes.",
+```
+```diff
+- 0055   "jei.key.category.overlays": "JEI (Overlays)",
++ 0059   "key.category.jei.overlays": "JEI (Overlays)",
+```
+```diff
+- 0062   "jei.key.category.recipe.gui": "JEI (Recipes)",
++ 0066   "key.category.jei.recipe.gui": "JEI (Recipes)",
+```
+```diff
+- 0070   "jei.key.category.cheat.mode": "JEI (Cheat Mode)",
++ 0074   "key.category.jei.cheat.mode": "JEI (Cheat Mode)",
+```
+```diff
+- 0077   "jei.key.category.hover.config.button": "JEI (Hovering With Mouse Over Config Button)",
++ 0081   "key.category.jei.hover.config.button": "JEI (Hovering With Mouse Over Config Button)",
+```
+```diff
+- 0080   "jei.key.category.edit.mode": "JEI (Edit Mode)",
++ 0084   "key.category.jei.edit.mode": "JEI (Edit Mode)",
+```
+```diff
+- 0085   "jei.key.category.mouse.hover": "JEI (Hovering With Mouse)",
++ 0089   "key.category.jei.mouse.hover": "JEI (Hovering With Mouse)",
+```
+```diff
+- 0094   "jei.key.category.search": "JEI (Search Filter)",
++ 0098   "key.category.jei.search": "JEI (Search Filter)",
+```
+```diff
+- 0099   "jei.key.category.dev.tools": "JEI (Dev Tools)",
++ 0103   "key.category.jei.dev.tools": "JEI (Dev Tools)",
+```
+```diff
++ 0105 
++ 0106   "_comment": "Debug (for a debug mode, do not need translation)",
++ 0107   "jei.config": "Configurações do JEI",
++ 0108   "jei.config.name": "Name: %s",
++ 0109   "jei.config.description": "Description: %s",
++ 0110   "jei.config.valueValues": "Valid Values: %s",
++ 0111   "jei.config.defaultValue": "Default Value: %s",
++ 0112 
++ 0113   "jei.config.title": "Config. do %MODNAME",
++ 0114   "jei.config.default": "Padrão",
++ 0115   "jei.config.valid": "Válida",
++ 0116   "jei.config.mode": "Modo",
++ 0117   "jei.config.mode.description": "Mudar o modo de operação do JEI.",
++ 0118   "jei.config.mode.cheatItemsEnabled": "Modo trapaça ativado",
++ 0119   "jei.config.mode.cheatItemsEnabled.description": "Dar itens em vez de apenas mostrar a receita.",
++ 0120   "jei.config.mode.editEnabled": "Ocultar ingredientes",
++ 0121   "jei.config.mode.editEnabled.description": "Ocultar ou mostrar ingredientes ao clicá-los na lista.",
++ 0122   "jei.config.interface": "Interface",
++ 0123   "jei.config.interface.description": "Opções de interface.",
++ 0124   "jei.config.interface.overlayEnabled": "Mostrar lista de ingredientes",
++ 0125   "jei.config.interface.overlayEnabled.description": "Exibe a lista de itens próxima à interface.",
++ 0126   "jei.config.interface.bookmarkOverlayEnabled": "Exibir favoritos",
++ 0127   "jei.config.interface.bookmarkOverlayEnabled.description": "Mostrar a lista de favoritos próxima às interfaces abertas.",
++ 0128 
++ 0129   "jei.config.client.appearance": "Appearance",
++ 0130   "jei.config.client.appearance.description": "Config options to change the appearance of JEI.",
++ 0131   "jei.config.client.appearance.centerSearch": "Centralizar barra de busca",
++ 0132   "jei.config.client.appearance.centerSearch.description": "Mover a barra de busca do JEI para o centro-inferior da tela.",
++ 0133   "jei.config.client.appearance.recipeGuiHeight": "Altura máxima da interface de receitas",
++ 0134   "jei.config.client.appearance.recipeGuiHeight.description": "A altura máxima para a interface de receitas.",
++ 0135 
++ 0136   "jei.config.client.cheating": "Cheating",
++ 0137   "jei.config.client.cheating.description": "Config options related to Cheating.",
++ 0138   "jei.config.client.cheating.giveMode": "Modo Give",
++ 0139   "jei.config.client.cheating.giveMode.description": "Permitir que o JEI envie itens diretamente ao inventário ou possa obtê-los com o mouse.",
++ 0140   "jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled": "Cheat Items to Hotbar Using Hotkeys",
++ 0141   "jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled.description": "Enable cheating items into the hotbar by using Shift + numeric keys.",
++ 0142   "jei.config.client.cheating.showHiddenIngredients": "Show Hidden Ingredients",
++ 0143   "jei.config.client.cheating.showHiddenIngredients.description": "Enable showing ingredients that are not in the creative menu.",
++ 0144   "jei.config.client.cheating.showTagRecipesEnabled": "Show Tag Recipes",
++ 0145   "jei.config.client.cheating.showTagRecipesEnabled.description": "Show recipes for ingredient tags like item tags and block tags.",
++ 0146 
++ 0147   "jei.config.client.bookmarks": "Bookmarks",
++ 0148   "jei.config.client.bookmarks.description": "Config options related to Bookmarking ingredients and recipes.",
++ 0149   "jei.config.client.bookmarks.addBookmarksToFrontEnabled": "Add Bookmarks to Front",
++ 0150   "jei.config.client.bookmarks.addBookmarksToFrontEnabled.description": "When true, add new bookmarks to the front of the list. When false, add them to the end.",
++ 0151   "jei.config.client.bookmarks.dragToRearrangeBookmarksEnabled": "Drag To Rearrange Bookmarks",
++ 0152   "jei.config.client.bookmarks.dragToRearrangeBookmarksEnabled.description": "Enable dragging bookmarks to rearrange them in the list.",
++ 0153 
++ 0154   "jei.config.client.tooltips": "Tooltips",
++ 0155   "jei.config.client.tooltips.description": "Config options related to Tooltips in JEI.",
++ 0156   "jei.config.client.tooltips.bookmarkTooltipFeatures": "Bookmarks Tooltips Features",
++ 0157   "jei.config.client.tooltips.bookmarkTooltipFeatures.description": "Extra features for bookmark tooltips.",
++ 0158   "jei.config.client.tooltips.holdShiftToShowBookmarkTooltipFeatures": "Shift for Bookmarks Tooltips",
++ 0159   "jei.config.client.tooltips.holdShiftToShowBookmarkTooltipFeatures.description": "Hold Shift to show bookmark tooltip features.",
++ 0160   "jei.config.client.tooltips.showCreativeTabNamesEnabled": "Show Creative Tab Names",
++ 0161   "jei.config.client.tooltips.showCreativeTabNamesEnabled.description": "Show creative tab names in ingredient tooltips.",
++ 0162   "jei.config.client.tooltips.tagContentTooltipEnabled": "Show Tag Contents",
++ 0163   "jei.config.client.tooltips.tagContentTooltipEnabled.description": "Show tag content in tooltips when browsing recipe ingredients.",
++ 0164   "jei.config.client.tooltips.hideSingleTagContentTooltipEnabled": "Hide Single-Ingredient Tag Contents",
++ 0165   "jei.config.client.tooltips.hideSingleTagContentTooltipEnabled.description": "Hide tag content in tooltips when there is only one ingredient in the tag.",
++ 0166 
++ 0167   "jei.config.client.lookups": "Lookups",
++ 0168   "jei.config.client.lookups.description": "Config options related to looking up uses and recipes for ingredients in JEI.",
++ 0169   "jei.config.client.lookups.lookupFluidContentsEnabled": "Lookup Fluid Contents",
++ 0170   "jei.config.client.lookups.lookupFluidContentsEnabled.description": "When looking up recipes with items that contain fluids, also look up recipes for the fluids.",
++ 0171   "jei.config.client.lookups.lookupBlockTagsEnabled": "Lookup ItemBlock Tags",
++ 0172   "jei.config.client.lookups.lookupBlockTagsEnabled.description": "When searching for item tags, also include tags for the default blocks contained in the items.",
++ 0173 
++ 0174   "jei.config.client.lookupHistory": "Lookup History",
++ 0175   "jei.config.client.lookupHistory.description": "Config options for showing a history of ingredient lookups in JEI",
++ 0176   "jei.config.client.lookupHistory.enabled": "Enabled",
++ 0177   "jei.config.client.lookupHistory.enabled.description": "Display or hide the lookup history overlay.",
++ 0178   "jei.config.client.lookupHistory.maxRows": "Max Rows",
++ 0179   "jei.config.client.lookupHistory.maxRows.description": "Max number of rows to display in the lookup history overlay.",
++ 0180   "jei.config.client.lookupHistory.maxIngredients": "Max Ingredients",
++ 0181   "jei.config.client.lookupHistory.maxIngredients.description": "Max number of lookup history ingredients to save.",
++ 0182   "jei.config.client.lookupHistory.displaySide": "Display Side",
++ 0183   "jei.config.client.lookupHistory.displaySide.description": "Side of the screen to display the lookup history overlay.",
++ 0184 
++ 0185   "jei.config.client.input": "Input",
++ 0186   "jei.config.client.input.description": "Config options related to Inputs in JEI.",
++ 0187   "jei.config.client.input.dragDelayInMilliseconds": "Drag Delay",
++ 0188   "jei.config.client.input.dragDelayInMilliseconds.description": "Number of milliseconds before a long mouse click is considered dragging the mouse.",
++ 0189   "jei.config.client.input.smoothScrollRate": "Smooth Scroll Rate",
++ 0190   "jei.config.client.input.smoothScrollRate.description": "Scroll rate for scrolling the mouse wheel in smooth-scrolling scroll boxes. Measured in pixels.",
++ 0191 
++ 0192   "jei.config.client.performance": "Performance",
++ 0193   "jei.config.client.performance.description": "Config options related to performance optimizations in JEI.",
++ 0194   "jei.config.client.performance.lowMemorySlowSearchEnabled": "Low Memory Search",
++ 0195   "jei.config.client.performance.lowMemorySlowSearchEnabled.description": "Set search to low-memory mode (makes search slow but uses less RAM).",
++ 0196 
++ 0197   "jei.config.client.advanced": "Avançado",
++ 0198   "jei.config.client.advanced.description": "Configurações avançadas do JEI.",
++ 0199   "jei.config.client.advanced.catchRenderErrorsEnabled": "Catch Render Errors",
++ 0200   "jei.config.client.advanced.catchRenderErrorsEnabled.description": "Catch render errors from modded ingredients and attempt to recover from them instead of crashing.",
++ 0201 
++ 0202   "jei.config.client.sorting": "Sorting",
++ 0203   "jei.config.client.sorting.description": "Config options related to how JEI sorts recipes and ingredients.",
++ 0204   "jei.config.client.sorting.ingredientSortStages": "Ingredient Sorting Stages",
++ 0205   "jei.config.client.sorting.ingredientSortStages.description": "Sorting order for the ingredient list.",
++ 0206   "jei.config.client.sorting.recipeSorterStages": "Recipe Sorting Stages",
++ 0207   "jei.config.client.sorting.recipeSorterStages.description": "Sorting order for displayed recipes.",
++ 0208 
++ 0209   "jei.config.client.search": "Opções de busca",
++ 0210   "jei.config.client.search.description": "Opções da barra de busca.",
++ 0211   "jei.config.client.search.modNameSearchMode": "@ModName",
++ 0212   "jei.config.client.search.modNameSearchMode.description": "Modo de busca para Mod Names (prefixo: @)",
++ 0213   "jei.config.client.search.tagSearchMode": "#Tag",
++ 0214   "jei.config.client.search.tagSearchMode.description": "Modo de pesquisa para nomes de tags (prefix: #)",
++ 0215   "jei.config.client.search.tooltipSearchMode": "$Tooltip",
++ 0216   "jei.config.client.search.tooltipSearchMode.description": "Modo de busca para Tooltips (prefixo: $)",
++ 0217   "jei.config.client.search.colorSearchMode": "^Color",
++ 0218   "jei.config.client.search.colorSearchMode.description": "Modo de busca para Colors (prefixo: ^)",
++ 0219   "jei.config.client.search.resourceLocationSearchMode": "&ResourceLocation",
++ 0220   "jei.config.client.search.resourceLocationSearchMode.description": "Modo de busca para IDs de recursos (prefixo: &)",
++ 0221   "jei.config.client.search.creativeTabSearchMode": "%%CreativeModeTab",
++ 0222   "jei.config.client.search.creativeTabSearchMode.description": "Modo de busca para Creative Tab Names (prefixo: %)",
++ 0223   "jei.config.client.search.searchAdvancedTooltips": "Pesquisar dicas de ferramentas avançadas",
++ 0224   "jei.config.client.search.searchAdvancedTooltips.description": "Search in advanced tooltips (visible with F3 + H).",
++ 0225   "jei.config.client.search.searchModIds": "Search Mod Ids",
++ 0226   "jei.config.client.search.searchModIds.description": "Search mod IDs in addition to mod names.",
++ 0227   "jei.config.client.search.searchModAliases": "Search Mod Aliases",
++ 0228   "jei.config.client.search.searchModAliases.description": "Search mod aliases (alternative names) that are added by plugins, in addition to mod names.",
++ 0229   "jei.config.client.search.searchShortModNames": "Search Short Mod Names",
++ 0230   "jei.config.client.search.searchShortModNames.description": "Search by the shorthand first letters of a mod's name.",
++ 0231   "jei.config.client.search.searchIngredientAliases": "Search Ingredient Aliases",
++ 0232   "jei.config.client.search.searchIngredientAliases.description": "Search ingredient aliases (alternative names) that are added by plugins, in addition to ingredient names.",
++ 0233 
++ 0234   "jei.config.client.ingredientList": "Ingredient List",
++ 0235   "jei.config.client.ingredientList.description": "Config options related to the Ingredient List (the list of ingredients on the right side of the screen)",
++ 0236   "jei.config.client.ingredientList.maxRows": "Max Rows",
++ 0237   "jei.config.client.ingredientList.maxRows.description": "Max number of rows shown.",
++ 0238   "jei.config.client.ingredientList.maxColumns": "Max Columns",
++ 0239   "jei.config.client.ingredientList.maxColumns.description": "Max number of columns shown.",
++ 0240   "jei.config.client.ingredientList.horizontalAlignment": "Horizontal Alignment",
++ 0241   "jei.config.client.ingredientList.horizontalAlignment.description": "Horizontal alignment of the ingredient list inside the available area.",
++ 0242   "jei.config.client.ingredientList.verticalAlignment": "Vertical Alignment",
++ 0243   "jei.config.client.ingredientList.verticalAlignment.description": "Vertical alignment of the ingredient list inside the available area.",
++ 0244   "jei.config.client.ingredientList.buttonNavigationVisibility": "Navigation Visibility",
++ 0245   "jei.config.client.ingredientList.buttonNavigationVisibility.description": "Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.",
++ 0246   "jei.config.client.ingredientList.drawBackground": "Draw GUI Background",
++ 0247   "jei.config.client.ingredientList.drawBackground.description": "Enable this to draw a background texture behind the ingredient list.",
++ 0248 
++ 0249   "jei.config.client.bookmarkList": "Bookmark List",
++ 0250   "jei.config.client.bookmarkList.description": "Config options related to the Bookmark List (the list of bookmarked ingredients on the left side of the screen)",
++ 0251   "jei.config.client.bookmarkList.maxRows": "Max Rows",
++ 0252   "jei.config.client.bookmarkList.maxRows.description": "Max number of rows shown.",
++ 0253   "jei.config.client.bookmarkList.maxColumns": "Max Columns",
++ 0254   "jei.config.client.bookmarkList.maxColumns.description": "Max number of columns shown.",
++ 0255   "jei.config.client.bookmarkList.horizontalAlignment": "Horizontal Alignment",
++ 0256   "jei.config.client.bookmarkList.horizontalAlignment.description": "Horizontal alignment of the bookmark list inside the available area.",
++ 0257   "jei.config.client.bookmarkList.verticalAlignment": "Vertical Alignment",
++ 0258   "jei.config.client.bookmarkList.verticalAlignment.description": "Vertical alignment of the bookmark list inside the available area.",
++ 0259   "jei.config.client.bookmarkList.buttonNavigationVisibility": "Navigation Visibility",
++ 0260   "jei.config.client.bookmarkList.buttonNavigationVisibility.description": "Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.",
++ 0261   "jei.config.client.bookmarkList.drawBackground": "Draw GUI Background",
++ 0262   "jei.config.client.bookmarkList.drawBackground.description": "Enable this to draw a background texture behind the bookmark list.",
++ 0263 
++ 0264   "jei.config.client.advanced.itemBlacklist": "Lista negra de ingredientes",
++ 0265   "jei.config.client.advanced.itemBlacklist.description": "Lista de ingredientes que não deve ser exibida na lista principal. Formato: modId[:name[:meta]]. O modo ingredientes ocultos adicionará ou removerá entradas aqui automaticamente.",
++ 0266   "jei.config.client.advanced.maxColumns": "Largura máxima de sobreposição",
++ 0267   "jei.config.client.advanced.maxColumns.description": "A largura máxima da lista de ingredientes.",
++ 0268 
++ 0269   "jei.config.modIdFormat.modName": "Mod Name",
++ 0270   "jei.config.modIdFormat.modName.description": "Config options related to displaying Mod Names",
++ 0271   "jei.config.modIdFormat.modName.modNameFormat": "Formato de nome do JEI",
++ 0272   "jei.config.modIdFormat.modName.modNameFormat.description": "Mudar o formato do nome em descrições nas interfaces do JEI. Deixe em branco para desativar.",
++ 0273 
++ 0274   "jei.config.debug.debug": "Debug",
++ 0275   "jei.config.debug.debug.description": "Config options to help developers debug issues in JEI",
++ 0276   "jei.config.debug.debug.debugMode": "Depuração",
++ 0277   "jei.config.debug.debug.debugMode.description": "Recomendado apenas para desenvolvedores do JEI. Adiciona ingredientes de testes e algumas receitas de depuração.",
++ 0278   "jei.config.debug.debug.debugGuis": "Debug GUIs",
++ 0279   "jei.config.debug.debug.debugGuis.description": "Enable Debug GUIs mode",
++ 0280   "jei.config.debug.debug.debugInputs": "Debug Inputs",
++ 0281   "jei.config.debug.debug.debugInputs.description": "Enable Debug Inputs mode",
++ 0282   "jei.config.debug.debug.debugInfoTooltipsEnabled": "Debug Info Tooltips",
++ 0283   "jei.config.debug.debug.debugInfoTooltipsEnabled.description": "Add debug information to ingredient tooltips when advanced tooltips are enabled.",
++ 0284   "jei.config.debug.debug.crashingTestItemsEnabled": "Enable Crashing Test Items",
++ 0285   "jei.config.debug.debug.crashingTestItemsEnabled.description": "Adds ingredients to JEI that intentionally crash, to help debug JEI.",
++ 0286   "jei.config.debug.debug.logSuffixTreeStats": "Log Search Tree Statistics",
++ 0287   "jei.config.debug.debug.logSuffixTreeStats.description": "Log information about the suffix trees used for searching, to help debug JEI.",
++ 0288 
++ 0289   "jei.config.colors.colors": "Colors",
++ 0290   "jei.config.colors.colors.description": "Config options related to searching for colors of items in JEI",
++ 0291   "jei.config.colors.colors.searchColors": "Search Colors",
++ 0292   "jei.config.colors.colors.searchColors.description": "Color values to search for.",
+```
+```diff
+- 0116   "gui.jei.category.fuel": "Combustível",
++ 0308   "gui.jei.category.smelting_fuel": "Smelting Fuel",
++ 0309   "gui.jei.category.smoking_fuel": "Smoking Fuel",
++ 0310   "gui.jei.category.blasting_fuel": "Blasting Fuel",
+```
+```diff
++ 0317   "gui.jei.category.grindstone": "Grinding",
++ 0318   "gui.jei.category.grindstone.experience": "%s to %s XP",
+```
+```diff
++ 0331   "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
+```
+
+## en_us.json atualizado em 02/10/2025 03:22:52
+
+```diff
+- 0023   "jei.tooltip.bookmarks": "JEI Bookmarks",
++ 0023   "jei.tooltip.bookmarks.enable": "Show JEI Bookmarks",
++ 0024   "jei.tooltip.bookmarks.disable": "Hide JEI Bookmarks",
+```
+```diff
++ 0034   "jei.tooltip.lookupHistory.enable": "Show JEI Lookup History",
++ 0035   "jei.tooltip.lookupHistory.disable": "Hide JEI Lookup History",
++ 0036   "jei.tooltip.lookupHistory.usage": "Shows a list of the ingredients recently used for looking up recipes.",
+```
+```diff
+- 0055   "jei.key.category.overlays": "JEI (Overlays)",
++ 0059   "key.category.jei.overlays": "JEI (Overlays)",
+```
+```diff
+- 0062   "jei.key.category.recipe.gui": "JEI (Recipes)",
++ 0066   "key.category.jei.recipe.gui": "JEI (Recipes)",
+```
+```diff
+- 0070   "jei.key.category.cheat.mode": "JEI (Cheat Mode)",
++ 0074   "key.category.jei.cheat.mode": "JEI (Cheat Mode)",
+```
+```diff
+- 0077   "jei.key.category.hover.config.button": "JEI (Hovering With Mouse Over Config Button)",
++ 0081   "key.category.jei.hover.config.button": "JEI (Hovering With Mouse Over Config Button)",
+```
+```diff
+- 0080   "jei.key.category.edit.mode": "JEI (Edit Mode)",
++ 0084   "key.category.jei.edit.mode": "JEI (Edit Mode)",
+```
+```diff
+- 0085   "jei.key.category.mouse.hover": "JEI (Hovering With Mouse)",
++ 0089   "key.category.jei.mouse.hover": "JEI (Hovering With Mouse)",
+```
+```diff
+- 0094   "jei.key.category.search": "JEI (Search Filter)",
++ 0098   "key.category.jei.search": "JEI (Search Filter)",
+```
+```diff
+- 0099   "jei.key.category.dev.tools": "JEI (Dev Tools)",
++ 0103   "key.category.jei.dev.tools": "JEI (Dev Tools)",
+```
+```diff
++ 0105 
++ 0106   "_comment": "Config",
++ 0107   "jei.config": "JEI Config",
++ 0108   "jei.config.name": "Name: %s",
++ 0109   "jei.config.description": "Description: %s",
++ 0110   "jei.config.valueValues": "Valid Values: %s",
++ 0111   "jei.config.defaultValue": "Default Value: %s",
++ 0112 
++ 0113   "jei.config.title": "%MODNAME Config",
++ 0114   "jei.config.default": "Default",
++ 0115   "jei.config.valid": "Valid",
++ 0116   "jei.config.mode": "Mode",
++ 0117   "jei.config.mode.description": "Change the mode that JEI is operating in.",
++ 0118   "jei.config.mode.cheatItemsEnabled": "Cheat Mode",
++ 0119   "jei.config.mode.cheatItemsEnabled.description": "Give items instead of showing the recipe.",
++ 0120   "jei.config.mode.editEnabled": "Hide Ingredients Mode",
++ 0121   "jei.config.mode.editEnabled.description": "Hide or unhide ingredients by clicking them in the ingredient list overlay.",
++ 0122   "jei.config.interface": "Interface",
++ 0123   "jei.config.interface.description": "Options related to the user interface.",
++ 0124   "jei.config.interface.overlayEnabled": "Show Ingredient List Overlay",
++ 0125   "jei.config.interface.overlayEnabled.description": "Show the ingredient list overlay next to open GUIs.",
++ 0126   "jei.config.interface.bookmarkOverlayEnabled": "Show Bookmark List Overlay",
++ 0127   "jei.config.interface.bookmarkOverlayEnabled.description": "Show the bookmark list overlay next to open GUIs.",
++ 0128 
++ 0129   "jei.config.client.appearance": "Appearance",
++ 0130   "jei.config.client.appearance.description": "Config options to change the appearance of JEI.",
++ 0131   "jei.config.client.appearance.centerSearch": "Center Search Bar",
++ 0132   "jei.config.client.appearance.centerSearch.description": "Move the JEI search bar to the bottom center of the screen.",
++ 0133   "jei.config.client.appearance.recipeGuiHeight": "Recipe GUI Height",
++ 0134   "jei.config.client.appearance.recipeGuiHeight.description": "The maximum height for the Recipes Gui (in pixels).",
++ 0135 
++ 0136   "jei.config.client.cheating": "Cheating",
++ 0137   "jei.config.client.cheating.description": "Config options related to Cheating.",
++ 0138   "jei.config.client.cheating.giveMode": "Give Mode",
++ 0139   "jei.config.client.cheating.giveMode.description": "Choose if JEI should give ingredients directly to the inventory or pick them up with the mouse.",
++ 0140   "jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled": "Cheat Items to Hotbar Using Hotkeys",
++ 0141   "jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled.description": "Enable cheating items into the hotbar by using Shift + numeric keys.",
++ 0142   "jei.config.client.cheating.showHiddenIngredients": "Show Hidden Ingredients",
++ 0143   "jei.config.client.cheating.showHiddenIngredients.description": "Enable showing ingredients that are not in the creative menu.",
++ 0144   "jei.config.client.cheating.showTagRecipesEnabled": "Show Tag Recipes",
++ 0145   "jei.config.client.cheating.showTagRecipesEnabled.description": "Show recipes for ingredient tags like item tags and block tags.",
++ 0146 
++ 0147   "jei.config.client.bookmarks": "Bookmarks",
++ 0148   "jei.config.client.bookmarks.description": "Config options related to Bookmarking ingredients and recipes.",
++ 0149   "jei.config.client.bookmarks.addBookmarksToFrontEnabled": "Add Bookmarks to Front",
++ 0150   "jei.config.client.bookmarks.addBookmarksToFrontEnabled.description": "When true, add new bookmarks to the front of the list. When false, add them to the end.",
++ 0151   "jei.config.client.bookmarks.dragToRearrangeBookmarksEnabled": "Drag To Rearrange Bookmarks",
++ 0152   "jei.config.client.bookmarks.dragToRearrangeBookmarksEnabled.description": "Enable dragging bookmarks to rearrange them in the list.",
++ 0153 
++ 0154   "jei.config.client.tooltips": "Tooltips",
++ 0155   "jei.config.client.tooltips.description": "Config options related to Tooltips in JEI.",
++ 0156   "jei.config.client.tooltips.bookmarkTooltipFeatures": "Bookmarks Tooltips Features",
++ 0157   "jei.config.client.tooltips.bookmarkTooltipFeatures.description": "Extra features for bookmark tooltips.",
++ 0158   "jei.config.client.tooltips.holdShiftToShowBookmarkTooltipFeatures": "Shift for Bookmarks Tooltips",
++ 0159   "jei.config.client.tooltips.holdShiftToShowBookmarkTooltipFeatures.description": "Hold Shift to show bookmark tooltip features.",
++ 0160   "jei.config.client.tooltips.showCreativeTabNamesEnabled": "Show Creative Tab Names",
++ 0161   "jei.config.client.tooltips.showCreativeTabNamesEnabled.description": "Show creative tab names in ingredient tooltips.",
++ 0162   "jei.config.client.tooltips.tagContentTooltipEnabled": "Show Tag Contents",
++ 0163   "jei.config.client.tooltips.tagContentTooltipEnabled.description": "Show tag content in tooltips when browsing recipe ingredients.",
++ 0164   "jei.config.client.tooltips.hideSingleTagContentTooltipEnabled": "Hide Single-Ingredient Tag Contents",
++ 0165   "jei.config.client.tooltips.hideSingleTagContentTooltipEnabled.description": "Hide tag content in tooltips when there is only one ingredient in the tag.",
++ 0166 
++ 0167   "jei.config.client.lookups": "Lookups",
++ 0168   "jei.config.client.lookups.description": "Config options related to looking up uses and recipes for ingredients in JEI.",
++ 0169   "jei.config.client.lookups.lookupFluidContentsEnabled": "Lookup Fluid Contents",
++ 0170   "jei.config.client.lookups.lookupFluidContentsEnabled.description": "When looking up recipes with items that contain fluids, also look up recipes for the fluids.",
++ 0171   "jei.config.client.lookups.lookupBlockTagsEnabled": "Lookup ItemBlock Tags",
++ 0172   "jei.config.client.lookups.lookupBlockTagsEnabled.description": "When searching for item tags, also include tags for the default blocks contained in the items.",
++ 0173 
++ 0174   "jei.config.client.lookupHistory": "Lookup History",
++ 0175   "jei.config.client.lookupHistory.description": "Config options for showing a history of ingredient lookups in JEI",
++ 0176   "jei.config.client.lookupHistory.enabled": "Enabled",
++ 0177   "jei.config.client.lookupHistory.enabled.description": "Display or hide the lookup history overlay.",
++ 0178   "jei.config.client.lookupHistory.maxRows": "Max Rows",
++ 0179   "jei.config.client.lookupHistory.maxRows.description": "Max number of rows to display in the lookup history overlay.",
++ 0180   "jei.config.client.lookupHistory.maxIngredients": "Max Ingredients",
++ 0181   "jei.config.client.lookupHistory.maxIngredients.description": "Max number of lookup history ingredients to save.",
++ 0182   "jei.config.client.lookupHistory.displaySide": "Display Side",
++ 0183   "jei.config.client.lookupHistory.displaySide.description": "Side of the screen to display the lookup history overlay.",
++ 0184 
++ 0185   "jei.config.client.input": "Input",
++ 0186   "jei.config.client.input.description": "Config options related to Inputs in JEI.",
++ 0187   "jei.config.client.input.dragDelayInMilliseconds": "Drag Delay",
++ 0188   "jei.config.client.input.dragDelayInMilliseconds.description": "Number of milliseconds before a long mouse click is considered dragging the mouse.",
++ 0189   "jei.config.client.input.smoothScrollRate": "Smooth Scroll Rate",
++ 0190   "jei.config.client.input.smoothScrollRate.description": "Scroll rate for scrolling the mouse wheel in smooth-scrolling scroll boxes. Measured in pixels.",
++ 0191 
++ 0192   "jei.config.client.performance": "Performance",
++ 0193   "jei.config.client.performance.description": "Config options related to performance optimizations in JEI.",
++ 0194   "jei.config.client.performance.lowMemorySlowSearchEnabled": "Low Memory Search",
++ 0195   "jei.config.client.performance.lowMemorySlowSearchEnabled.description": "Set search to low-memory mode (makes search slow but uses less RAM).",
++ 0196 
++ 0197   "jei.config.client.advanced": "Advanced",
++ 0198   "jei.config.client.advanced.description": "Advanced config options to change the way JEI functions.",
++ 0199   "jei.config.client.advanced.catchRenderErrorsEnabled": "Catch Render Errors",
++ 0200   "jei.config.client.advanced.catchRenderErrorsEnabled.description": "Catch render errors from modded ingredients and attempt to recover from them instead of crashing.",
++ 0201 
++ 0202   "jei.config.client.sorting": "Sorting",
++ 0203   "jei.config.client.sorting.description": "Config options related to how JEI sorts recipes and ingredients.",
++ 0204   "jei.config.client.sorting.ingredientSortStages": "Ingredient Sorting Stages",
++ 0205   "jei.config.client.sorting.ingredientSortStages.description": "Sorting order for the ingredient list.",
++ 0206   "jei.config.client.sorting.recipeSorterStages": "Recipe Sorting Stages",
++ 0207   "jei.config.client.sorting.recipeSorterStages.description": "Sorting order for displayed recipes.",
++ 0208 
++ 0209   "jei.config.client.search": "Search",
++ 0210   "jei.config.client.search.description": "Config options related to how JEI searches recipes.",
++ 0211   "jei.config.client.search.modNameSearchMode": "@Mod Name Search Mode",
++ 0212   "jei.config.client.search.modNameSearchMode.description": "Search mode for mod names (prefix: @).",
++ 0213   "jei.config.client.search.tagSearchMode": "#Tag Search Mode",
++ 0214   "jei.config.client.search.tagSearchMode.description": "Search mode for tags (prefix: #).",
++ 0215   "jei.config.client.search.tooltipSearchMode": "$Tooltip Search Mode",
++ 0216   "jei.config.client.search.tooltipSearchMode.description": "Search mode for tooltips (prefix: $).",
++ 0217   "jei.config.client.search.colorSearchMode": "^Color Search Mode",
++ 0218   "jei.config.client.search.colorSearchMode.description": "Search mode for colors (prefix: ^).",
++ 0219   "jei.config.client.search.resourceLocationSearchMode": "&Resource Location Search Mode",
++ 0220   "jei.config.client.search.resourceLocationSearchMode.description": "Search mode for resource locations (prefix: &).",
++ 0221   "jei.config.client.search.creativeTabSearchMode": "%Creative Tab Search Mode",
++ 0222   "jei.config.client.search.creativeTabSearchMode.description": "Search mode for creative mode tab names (prefix: %).",
++ 0223   "jei.config.client.search.searchAdvancedTooltips": "Search Advanced Tooltips",
++ 0224   "jei.config.client.search.searchAdvancedTooltips.description": "Search in advanced tooltips (visible with F3 + H).",
++ 0225   "jei.config.client.search.searchModIds": "Search Mod Ids",
++ 0226   "jei.config.client.search.searchModIds.description": "Search mod IDs in addition to mod names.",
++ 0227   "jei.config.client.search.searchModAliases": "Search Mod Aliases",
++ 0228   "jei.config.client.search.searchModAliases.description": "Search mod aliases (alternative names) that are added by plugins, in addition to mod names.",
++ 0229   "jei.config.client.search.searchShortModNames": "Search Short Mod Names",
++ 0230   "jei.config.client.search.searchShortModNames.description": "Search by the shorthand first letters of a mod's name.",
++ 0231   "jei.config.client.search.searchIngredientAliases": "Search Ingredient Aliases",
++ 0232   "jei.config.client.search.searchIngredientAliases.description": "Search ingredient aliases (alternative names) that are added by plugins, in addition to ingredient names.",
++ 0233 
++ 0234   "jei.config.client.ingredientList": "Ingredient List",
++ 0235   "jei.config.client.ingredientList.description": "Config options related to the Ingredient List (the list of ingredients on the right side of the screen)",
++ 0236   "jei.config.client.ingredientList.maxRows": "Max Rows",
++ 0237   "jei.config.client.ingredientList.maxRows.description": "Max number of rows shown.",
++ 0238   "jei.config.client.ingredientList.maxColumns": "Max Columns",
++ 0239   "jei.config.client.ingredientList.maxColumns.description": "Max number of columns shown.",
++ 0240   "jei.config.client.ingredientList.horizontalAlignment": "Horizontal Alignment",
++ 0241   "jei.config.client.ingredientList.horizontalAlignment.description": "Horizontal alignment of the ingredient list inside the available area.",
++ 0242   "jei.config.client.ingredientList.verticalAlignment": "Vertical Alignment",
++ 0243   "jei.config.client.ingredientList.verticalAlignment.description": "Vertical alignment of the ingredient list inside the available area.",
++ 0244   "jei.config.client.ingredientList.buttonNavigationVisibility": "Navigation Visibility",
++ 0245   "jei.config.client.ingredientList.buttonNavigationVisibility.description": "Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.",
++ 0246   "jei.config.client.ingredientList.drawBackground": "Draw GUI Background",
++ 0247   "jei.config.client.ingredientList.drawBackground.description": "Enable this to draw a background texture behind the ingredient list.",
++ 0248 
++ 0249   "jei.config.client.bookmarkList": "Bookmark List",
++ 0250   "jei.config.client.bookmarkList.description": "Config options related to the Bookmark List (the list of bookmarked ingredients on the left side of the screen)",
++ 0251   "jei.config.client.bookmarkList.maxRows": "Max Rows",
++ 0252   "jei.config.client.bookmarkList.maxRows.description": "Max number of rows shown.",
++ 0253   "jei.config.client.bookmarkList.maxColumns": "Max Columns",
++ 0254   "jei.config.client.bookmarkList.maxColumns.description": "Max number of columns shown.",
++ 0255   "jei.config.client.bookmarkList.horizontalAlignment": "Horizontal Alignment",
++ 0256   "jei.config.client.bookmarkList.horizontalAlignment.description": "Horizontal alignment of the bookmark list inside the available area.",
++ 0257   "jei.config.client.bookmarkList.verticalAlignment": "Vertical Alignment",
++ 0258   "jei.config.client.bookmarkList.verticalAlignment.description": "Vertical alignment of the bookmark list inside the available area.",
++ 0259   "jei.config.client.bookmarkList.buttonNavigationVisibility": "Navigation Visibility",
++ 0260   "jei.config.client.bookmarkList.buttonNavigationVisibility.description": "Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.",
++ 0261   "jei.config.client.bookmarkList.drawBackground": "Draw GUI Background",
++ 0262   "jei.config.client.bookmarkList.drawBackground.description": "Enable this to draw a background texture behind the bookmark list.",
++ 0263 
++ 0264   "jei.config.client.advanced.itemBlacklist": "Ingredient Blacklist",
++ 0265   "jei.config.client.advanced.itemBlacklist.description": "List of ingredients that should not be displayed in the ingredient list overlay. Format: modId[:name[:meta]]. The hide ingredients mode will automatically add or remove entries here.",
++ 0266   "jei.config.client.advanced.maxColumns": "Max Overlay Width",
++ 0267   "jei.config.client.advanced.maxColumns.description": "The maximum width of the ingredient and bookmark list overlays.",
++ 0268 
++ 0269   "jei.config.modIdFormat.modName": "Mod Name",
++ 0270   "jei.config.modIdFormat.modName.description": "Config options related to displaying Mod Names",
++ 0271   "jei.config.modIdFormat.modName.modNameFormat": "Mod Name Format",
++ 0272   "jei.config.modIdFormat.modName.modNameFormat.description": "Formatting for the mod names in tooltips for JEI GUIs. Leave blank to disable.",
++ 0273 
++ 0274   "jei.config.debug.debug": "Debug",
++ 0275   "jei.config.debug.debug.description": "Config options to help developers debug issues in JEI",
++ 0276   "jei.config.debug.debug.debugMode": "Debug Mode",
++ 0277   "jei.config.debug.debug.debugMode.description": "Enable debug mode",
++ 0278   "jei.config.debug.debug.debugGuis": "Debug GUIs",
++ 0279   "jei.config.debug.debug.debugGuis.description": "Enable Debug GUIs mode",
++ 0280   "jei.config.debug.debug.debugInputs": "Debug Inputs",
++ 0281   "jei.config.debug.debug.debugInputs.description": "Enable Debug Inputs mode",
++ 0282   "jei.config.debug.debug.debugInfoTooltipsEnabled": "Debug Info Tooltips",
++ 0283   "jei.config.debug.debug.debugInfoTooltipsEnabled.description": "Add debug information to ingredient tooltips when advanced tooltips are enabled.",
++ 0284   "jei.config.debug.debug.crashingTestItemsEnabled": "Enable Crashing Test Items",
++ 0285   "jei.config.debug.debug.crashingTestItemsEnabled.description": "Adds ingredients to JEI that intentionally crash, to help debug JEI.",
++ 0286   "jei.config.debug.debug.logSuffixTreeStats": "Log Search Tree Statistics",
++ 0287   "jei.config.debug.debug.logSuffixTreeStats.description": "Log information about the suffix trees used for searching, to help debug JEI.",
++ 0288 
++ 0289   "jei.config.colors.colors": "Colors",
++ 0290   "jei.config.colors.colors.description": "Config options related to searching for colors of items in JEI",
++ 0291   "jei.config.colors.colors.searchColors": "Search Colors",
++ 0292   "jei.config.colors.colors.searchColors.description": "Color values to search for.",
+```
+```diff
++ 0308   "gui.jei.category.smelting_fuel": "Smelting Fuel",
+- 0116   "gui.jei.category.fuel": "Fuel",
++ 0309   "gui.jei.category.smoking_fuel": "Smoking Fuel",
++ 0310   "gui.jei.category.blasting_fuel": "Blasting Fuel",
+```
+```diff
++ 0317   "gui.jei.category.grindstone": "Grinding",
++ 0318   "gui.jei.category.grindstone.experience": "%s to %s XP",
+```
+```diff
++ 0331   "jei.message.missing.recipes.from.server": "JEI is missing recipes. Please install JEI on the server to sync recipes to the client.\nSince Minecraft 1.21.2, recipes are stored on the server and not the client.",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 27/09/2025 03:20:45
 
 ```diff
