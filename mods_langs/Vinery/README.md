@@ -3,6 +3,26 @@
 
 ### Registro de Alterações
 
+## pt_br.json atualizado em 21/10/2025 03:32:58
+
+```diff
+- 0352   "rei.vinery.fermentation_barrel_category": "Fermentation Barrel"
++ 0352   "rei.vinery.fermentation_barrel_category": "Fermentation Barrel",
++ 0353   "rei.vinery.apple_press_category": "Apple Press"
+```
+
+## en_us.json atualizado em 21/10/2025 03:32:58
+
+```diff
+- 0352   "rei.vinery.fermentation_barrel_category": "Fermentation Barrel"
++ 0352   "rei.vinery.fermentation_barrel_category": "Fermentation Barrel",
++ 0353   "rei.vinery.apple_press_category": "Apple Press"
+```
+# Arquivos de Tradução: Vinery
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 07/08/2025 04:00:12
 
 ```diff
