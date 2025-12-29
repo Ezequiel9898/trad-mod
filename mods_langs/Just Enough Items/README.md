@@ -3,6 +3,19 @@
 
 ### Registro de Alterações
 
+## en_us.json atualizado em 29/12/2025 04:04:58
+
+```diff
+- 0222   "jei.config.client.search.identifierSearchMode": "&Resource Location Search Mode",
++ 0222   "jei.config.client.search.identifierSearchMode": "&Identifier Search Mode",
+- 0223   "jei.config.client.search.identifierSearchMode.description": "Search mode for resource locations (prefix: &).",
++ 0223   "jei.config.client.search.identifierSearchMode.description": "Search mode for identifiers (prefix: &).",
+```
+# Arquivos de Tradução: Just Enough Items
+
+
+### Registro de Alterações
+
 ## pt_br.json atualizado em 23/12/2025 03:55:01
 
 ```diff
